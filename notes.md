@@ -12,4 +12,4 @@
 
 ...The append function has a time complexity of O(n). The .push method it uses has a time complexity of O(1). The append function itself loops over the nums array and the .push focues on the new_nums array. Each focus on two different arrays.
 
-...The insert function has a time complexity of O(n). The .unshift method has a linear time complexity of O(n) as well. In the case of .unshift, using this method entails needing to change the indexes if adding a new element at the beginning of an array as every index of the other elements in the array mush be incremented by 1.
+...The insert function has a time complexity of O(n). The .unshift method has a linear time complexity of O(n) as well. In the case of .unshift, using this method entails needing to change the indexes if adding a new element at the beginning of an array as every index of the other elements in the array must be incremented by 1.
